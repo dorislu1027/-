@@ -7,6 +7,35 @@ body{
   )
 }
 div{
-  .flower{color:blue}
+  .flower{
+    color:blue;
+    font-size:50px;
+    font-align:centre;
+    button:hover{
+      font-size:60px;
+    }
+    .leaf{
+    color:green;
+    font-size:50px;
+    font-align:centre;
+    button:hover{
+      font-size:60px;
+    }
+    .fruit{
+    color:golden;
+    font-size:50px;
+    font-align:centre;
+    button:hover{
+      font-size:60px;
+    }
+    .mushroom{
+    color:brown;
+    font-size:50px;
+    font-align:centre;
+    button:hover{
+      font-size:60px;
+    }
+  }
+  
   
 }
