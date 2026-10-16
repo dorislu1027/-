@@ -30,6 +30,7 @@ function selectItem(item){
         return;
     }
     const key = [...selectedItems].sort().join("+");
-    const potion=recipe[key]||"啊哦，炸锅了";
+    const potion=recipe[key]||"啊哦，炸锅了,那就送你一瓶力量药水吧～";
     document.getElementById("result").textContent = potion;
+    selectedItems=[];
   }
