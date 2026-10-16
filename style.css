@@ -1,49 +1,43 @@
 body{
-  background:liner-gradient(
+  background:linear-gradient(
     135deg,
     #10152f,
     #29205b,
     #101d3e
     
-  )
+  );
 }
-div{
-  .flower{
-    color:blue;
-    font-size:50px;
-    font-align:centre;
-    button:hover{
-      font-size:60px;
+.flower{
+  color:blue;
+  background-color:purple;
+  font-size:50px;
+  text-align:center;
     }
-    .leaf{
-    color:green;
-    font-size:50px;
-    font-align:centre;
-    button:hover{
-      font-size:60px;
+.leaf{
+  color:green;
+  background-color:white;
+  font-size:50px;
+  text-align:center;    
     }
-    .fruit{
-    color:golden;
-    font-size:50px;
-    font-align:centre;
-    button:hover{
-      font-size:60px;
+.fruit{
+  color:gold;
+  background-color:blue;
+  font-size:50px;
+  text-align:center;
     }
-    .mushroom{
-    color:brown;
-    font-size:50px;
-    font-align:centre;
-    button:hover{
-      font-size:60px;
+.mushroom{
+  color:brown;
+  background-color:yellow;
+  font-size:50px;
+  text-align:center;
     }
-    .start{
-    color:purple;
-    font-size:50px;
-    font-align:centre;
-    button:hover{
-      font-size:60px;
-    }
+.start{
+  color:purple;
+  background-color:gold;
+  font-size:50px;
+  text-align:center;
   }
-  
-  
+.ingredients button:hover {
+  transform: scale(1.08);
+  cursor: pointer;
 }
