@@ -1,5 +1,8 @@
-body{
-  background-color:blue;
+body {
+  background-image: url("./images/laboratory.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .flower{
   color:blue;
