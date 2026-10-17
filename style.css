@@ -1,11 +1,5 @@
 body{
-  background:linear-gradient(
-    135deg,
-    #10152f,
-    #29205b,
-    #101d3e
-    
-  );
+  background-color:blue;
 }
 .flower{
   color:blue;
