@@ -4,34 +4,49 @@ body{
 .flower{
   color:blue;
   background-color:purple;
-  font-size:50px;
+  font-size:28px;
   text-align:center;
     }
 .leaf{
   color:green;
   background-color:white;
-  font-size:50px;
+  font-size:28px;
   text-align:center;    
     }
 .fruit{
   color:gold;
   background-color:blue;
-  font-size:50px;
+  font-size:28px;
   text-align:center;
     }
 .mushroom{
   color:brown;
   background-color:yellow;
-  font-size:50px;
+  font-size:28px;
   text-align:center;
     }
 .start{
   color:purple;
   background-color:gold;
-  font-size:50px;
+  font-size:28px;
   text-align:center;
   }
 .ingredients button:hover {
   transform: scale(1.08);
   cursor: pointer;
+}
+.h{
+  color:white;
+  text-align:center;
+  font-size:80px;
+}
+.p{
+  color:white;
+  text-align:center;
+  font-size:50px;
+}
+.wait{
+  color:white;
+  text-align:center;
+  font-size:50px;
 }
