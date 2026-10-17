@@ -1,11 +1,11 @@
 body {
-  background:linear-gradient(
-    135deg,
-      #080d24,
-      #18264b,
-      #251344,
-      #071c30
-  )
+  background-image: url("images/lab.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
 }
 .flower{
   color:blue;
