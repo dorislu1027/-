@@ -47,6 +47,7 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 15px;
   border-radius:15px;
+  font-size:50px;
 }
 .ingredients button:hover {
   transform: scale(1.08);
