@@ -38,11 +38,14 @@ body {
   font-size:60px;
   text-align:center;
   grid-column: 1 / -1;
+  justify-self:center;
+  border-radius:15px;
   }
 .ingredients {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
+  border-radius:15px;
 }
 .ingredients button:hover {
   transform: scale(1.08);
@@ -50,8 +53,7 @@ body {
   cursor: pointer;
 }
 .starts button:hover{
-  transform: scale:(1.10);
-  box-shadow:0 0 12px yellow;
+  transform: scale:(1.10) box-shadow:0 0 12px yellow border-radius:20px;;
 }
 .h{
   color:white;
