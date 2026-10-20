@@ -1,5 +1,6 @@
 body {
-  background-image:url"(images/lab.webp)";
+  background-image:url("images/lab.webp");
+  background-image:url("C:\Users\sarah\Desktop\魔法药水实验室")
   background-color:blue;
   background-size: cover;
   background-position: center;
@@ -53,8 +54,16 @@ body {
   box-shadow:0 0 12px white;
   cursor: pointer;
 }
+.ingredents button:selected{
+  outline:3px solid #DCDCDC;
+  transform:scale(1.05);
+}
 .starts button:hover{
   transform: scale:(1.10) box-shadow:0 0 12px yellow border-radius:20px;;
+}
+.starts button:selected{
+  outline:3px solid yellow;
+  transform:scale(1.08);
 }
 .h{
   color:white;
