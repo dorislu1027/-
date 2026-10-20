@@ -1,5 +1,5 @@
 body {
-  background-image:url"(C:\Users\sarah\Desktop\魔法药水实验室)";
+  background-image:url"(images/.lab.wbpg)";
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -9,45 +9,49 @@ body {
 }
 .flower{
   color:blue;
+  
   background-color:purple;
-  font-size:28px;
+  font-size:50px;
   text-align:center;
     }
 .leaf{
   color:green;
   background-color:white;
-  font-size:28px;
+  font-size:50px;
   text-align:center;    
     }
 .fruit{
   color:gold;
   background-color:blue;
-  font-size:28px;
+  font-size:50px;
   text-align:center;
     }
 .mushroom{
   color:brown;
   background-color:yellow;
-  font-size:28px;
+  font-size:50px;
   text-align:center;
     }
 .start{
   color:purple;
   background-color:gold;
-  font-size:28px;
+  font-size:60px;
   text-align:center;
+  grid-column: 1 / -1;
   }
 .ingredients {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
 }
-.start {
-  grid-column: 1 / -1;
-}
 .ingredients button:hover {
   transform: scale(1.08);
+  box-shadow:0 0 12px white;
   cursor: pointer;
+}
+.starts button:hover{
+  transform: scale:(1.10);
+  box-shadow:0 0 12px yellow;
 }
 .h{
   color:white;
